@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div className="bg-gray py-10 shadow-2xl">
+      <div className="mt-2">
         <Navbar />
       </div>
     </>
