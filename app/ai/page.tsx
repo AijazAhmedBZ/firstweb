@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 const PanaverseDao = () => {
   return (
     <div>
-      <div className="bg-gray py-10 shadow-2xl">
+      <div className="mt-2">
         <Navbar />
       </div>
     </div>
