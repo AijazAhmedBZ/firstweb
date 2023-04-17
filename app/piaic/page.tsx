@@ -27,11 +27,11 @@ const Piaic = () => {
           </li>
         </ul>
       </div>
-      <div className="mt-5 ml-10 mr-10 flex justify-between">
-        <img src="./aa.png" alt="Logo" width="300" height="300"></img>
+      <div className="mt-5 ml-20 mr-10 flex justify-between">
+        <Image src="/aa.png" alt="President" width="300" height="300"></Image>
         <div className="p-7 mr-10 ml-10 mt-5 bg-gray-300 rounded-lg">
           <span>
-            <h1 className="text-6xl font-bold text-teal-950">
+            <h1 className="flex flex-wrap text-6xl font-bold text-teal-950">
               Presidential Initiative for Artificial Intelligence & Computing
               (PIAIC)
             </h1>
