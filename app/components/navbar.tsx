@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link href="panavercedao">Panaverce Dao</Link>
       </div>
       <div className="bg-teal-700 rounded-full px-5 py-2 m-1 text-white text-center font-semibold">
-        <Link href="about">About</Link>
+        <Link href="about">Portfolio</Link>
       </div>
     </div>
   );

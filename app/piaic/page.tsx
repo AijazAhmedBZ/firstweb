@@ -10,19 +10,19 @@ const Piaic = () => {
       </div>
       <div>
         <ul className="mt-7 flex justify-end mr-10">
-          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow-xl hover:bg-teal-950 hover:text-white">
+          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow- hover:bg-teal-950 hover:text-white">
             <Link href="hiw">How it works</Link>
           </li>
-          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow-xl hover:bg-teal-950 hover:text-white">
+          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow- hover:bg-teal-950 hover:text-white">
             <Link href="https://portal.piaic.org/signup">Apply</Link>
           </li>
-          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow-xl hover:bg-teal-950 hover:text-white">
+          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow- hover:bg-teal-950 hover:text-white">
             Available Programs
           </li>
-          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow-xl hover:bg-teal-950 hover:text-white">
+          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow- hover:bg-teal-950 hover:text-white">
             About
           </li>
-          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow-xl hover:bg-teal-950 hover:text-white">
+          <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow- hover:bg-teal-950 hover:text-white">
             WIT
           </li>
         </ul>
