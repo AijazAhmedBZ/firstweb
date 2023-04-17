@@ -2,13 +2,20 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Image from "next/image";
 import Link from "next/link";
+import Piaic_buttons from "../components/piaic_buttons";
 const Piaic = () => {
   return (
     <div>
       <div className="mt-2">
         <Navbar />
       </div>
-      <div>
+      <header className="mt-7 flex justify-around max-w-screen-xl">
+        <Image
+          src="./PIAICLogo.svg"
+          alt="Logo"
+          width="100"
+          height="100"
+        ></Image>
         <ul className="mt-7 flex justify-end mr-10">
           <li className="text-teal-950 text-center font-semibold rounded-full px-5 m-1 py-2 shadow- hover:bg-teal-950 hover:text-white">
             <Link href="hiw">How it works</Link>
@@ -26,9 +33,8 @@ const Piaic = () => {
             WIT
           </li>
         </ul>
-      </div>
+      </header>
       <div className="mt-5 ml-20 mr-10 flex justify-between">
-        <Image src="/aa.png" alt="President" width="300" height="300"></Image>
         <div className="p-7 mr-10 ml-10 mt-5 bg-gray-300 rounded-lg">
           <span>
             <h1 className="flex flex-wrap text-6xl font-bold text-teal-950">
@@ -51,12 +57,7 @@ const Piaic = () => {
             </h1>
           </span>
         </div>
-        <Image
-          src="./PIAICLogo.svg"
-          alt="Logo"
-          width="300"
-          height="300"
-        ></Image>
+        <Image src="/aa.png" alt="President" width="300" height="300"></Image>
       </div>
       <div className="p-2 mr-10 ml-10 mt-5 bg-gray-300 rounded-full text-2xl text-center hover:bg-teal-700 hover:text-white hover:py-2">
         Available Programs
