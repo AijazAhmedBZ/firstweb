@@ -34,7 +34,8 @@ const Piaic = () => {
         </ul>
       </header>
       <section className="max-w-screen-xl mx-auto m-10 flex flex-col md:flex-row items-center">
-        <div className="p-7 mt-5 mr-10 bg-gray-300 rounded-lg">
+        <Image src="/aa.png" alt="President" width="200" height="200"></Image>
+        <div className="p-7 mt-5 ml-10 bg-gray-300 rounded-lg">
           <span>
             <h1 className="text-3xl md:text-5xl font-bold text-teal-950">
               Presidential Initiative for Artificial Intelligence & Computing
@@ -55,7 +56,6 @@ const Piaic = () => {
             </h1>
           </span>
         </div>
-        <Image src="/aa.png" alt="President" width="200" height="200"></Image>
       </section>
       <section className="max-w-screen-xl mx-auto m-10 flex flex-col md:flex-row items-center">
         <div className="p-2 mr-10 ml-10 mt-5 bg-gray-300 rounded-full text-2xl text-center hover:bg-teal-700 hover:text-white hover:py-2">
