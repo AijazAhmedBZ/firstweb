@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Image from "next/image";
 import Link from "next/link";
 import Piaic_buttons from "../components/piaic_buttons";
+import Button from "../components/Button";
 const Piaic = () => {
   return (
     <div>
@@ -16,6 +17,13 @@ const Piaic = () => {
           width="100"
           height="100"
         ></Image>
+        {/* <div className="space-x-8 space-y-8 flex items-between flex-col md:flex-row">
+          <Button text="How it Works" />
+          <Button text="Apply" />
+          <Button text="Available Programs" />
+          <Button text="About" />
+          <Button text="WIT" />
+        </div> */}
         <ul className="space-x-8 space-y-8 flex font-semibold items-between flex-col md:flex-row">
           <br />
           <li>
@@ -58,8 +66,8 @@ const Piaic = () => {
         </div>
       </section>
       <section className="max-w-screen-xl mx-auto m-10 flex flex-col md:flex-row items-center">
-        <div className="p-2 mr-10 ml-10 mt-5 bg-gray-300 rounded-full text-2xl text-center hover:bg-teal-700 hover:text-white hover:py-2">
-          Available Programs
+        <div>
+          <Button text={"Available Programs"} />
         </div>
         <ul className="grid grid-cols-1 max-w-screen-xl mx-auto m-10 md:grid-cols-4 items-center">
           <li>
