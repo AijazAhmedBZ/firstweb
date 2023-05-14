@@ -69,22 +69,24 @@ const Piaic = () => {
         <div>
           <Button text={"Available Programs"} />
         </div>
-        <ul className="grid grid-cols-1 max-w-screen-xl mx-auto m-10 md:grid-cols-4 items-center">
-          <li>
-            <Link href="ai">Artificial Intelligence</Link>
-          </li>
-          <li>
-            <Link href="cnc">
-              Cloud Native and Mobile Web Computing Specialist
-            </Link>
-          </li>
-          <li>
-            <Link href="bc">BLOCKCHAIN Specialist</Link>
-          </li>
-          <li>
-            <Link href="iot">Internet of Things and AI Specialist</Link>
-          </li>
-        </ul>
+        <div className="mt-10">
+          <ul className="md:grid grid-cols-4">
+            <li>
+              <Link href="ai">Artificial Intelligence</Link>
+            </li>
+            <li>
+              <Link href="cnc">
+                Cloud Native and Mobile Web Computing Specialist
+              </Link>
+            </li>
+            <li>
+              <Link href="bc">BLOCKCHAIN Specialist</Link>
+            </li>
+            <li>
+              <Link href="iot">Internet of Things and AI Specialist</Link>
+            </li>
+          </ul>
+        </div>
         <div className="justify-center">
           <h1 className="p-7 justify-centert rounded-full px-5 m-1 py-2 hover:text-teal-700 text-center font-semibold">
             <Link href="https://portal.piaic.org/signup">Apply</Link>
